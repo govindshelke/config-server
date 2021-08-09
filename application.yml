@@ -6,25 +6,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     instance:
       hostname: localhost
-
-api:
-  rating: http://RATING-SERVICE/ratings
-  movie: http://MOVIE-SERVICE/movies
-
-movieDB:
-  movie: https://api.themoviedb.org/3/movie
-  search: https://api.themoviedb.org/3/search/movie
-  apikey: 6b1100791149484b0e9a1790d87b1244
-  
-
-spring:
-  h2:
-    console:
-      enabled: true
-  datasource:
-    url : jdbc:h2:mem:ratingDB
-    driverClassName: org.h2.Driver
-    username: sa
-    password: password
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
