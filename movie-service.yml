@@ -1,2 +1,7 @@
 server:
   port: 9002
+
+movieDB:
+  movie: https://api.themoviedb.org/3/movie
+  search: https://api.themoviedb.org/3/search/movie
+  apikey: 6b1100791149484b0e9a1790d87b1244
