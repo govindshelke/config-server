@@ -5,7 +5,3 @@ api:
   rating: http://RATING-SERVICE/ratings
   movie: http://MOVIE-SERVICE/movies
 
-movieDB:
-  movie: https://api.themoviedb.org/3/movie
-  search: https://api.themoviedb.org/3/search/movie
-  apikey: 6b1100791149484b0e9a1790d87b1244
